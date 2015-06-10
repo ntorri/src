@@ -1,0 +1,16 @@
+[
+{
+  "modid": "creeperdude",
+  "name": "CreeperDudes Mods",
+  "description": "Stuff in a mod.",
+  "version": "1.0",
+  "mcversion": "1.8x",
+  "url": "http://www.torridigital.com/minecraft",
+  "updateUrl": "",
+  "authorList": ["CreeperDude"],
+  "credits": "The Forge and FML guys.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

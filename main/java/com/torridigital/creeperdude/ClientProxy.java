@@ -1,5 +1,6 @@
 package com.torridigital.creeperdude;
 
+import com.torridigital.creeperdude.client.render.blocks.BlockRenderRegister;
 import com.torridigital.creeperdude.client.render.items.ItemRenderRegister;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -18,6 +19,7 @@ public class ClientProxy extends CommonProxy {
         super.init(event);
         
         ItemRenderRegister.registerItemRenderer();
+        BlockRenderRegister.registerBlockRenderer();
     }
 
     @Override

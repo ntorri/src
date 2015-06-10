@@ -20,6 +20,8 @@ public class MainMod {
 	@SidedProxy(clientSide="com.torridigital.creeperdude.ClientProxy", serverSide="com.torridigital.creeperdude.ServerProxy")
 	public static CommonProxy proxy;
 	
+	public static final CreeperTab tabCreeper = new CreeperTab("tabCreeper");
+	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
 		this.proxy.preInit(event);

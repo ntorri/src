@@ -26,6 +26,7 @@ public final class ItemRenderRegister {
 		reg(ModItems.tutorialChestplate);
 		reg(ModItems.tutorialLeggings);
 		reg(ModItems.tutorialBoots);
+		reg(ModItems.tutorialItem);
 	}
 
 	// ==========================================================================

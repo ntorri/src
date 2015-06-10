@@ -34,17 +34,27 @@ public final class ModItems {
 		GameRegistry.registerItem(tutorialItem = new BasicItem("tutorial_item"), "tutorial_item");
 		tutorialItem.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialPickaxe = new ItemModPickaxe("tutorial_pickaxe", TUTORIAL), "tutorial_pickaxe");
+		tutorialPickaxe.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialAxe = new ItemModAxe("tutorial_axe", TUTORIAL), "tutorial_axe");
+		tutorialAxe.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialSpade = new ItemModSpade("tutorial_spade", TUTORIAL), "tutorial_spade");
+		tutorialSpade.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialHoe = new ItemModHoe("tutorial_hoe", TUTORIAL), "tutorial_hoe");
+		tutorialHoe.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialSword = new ItemModSword("tutorial_sword", TUTORIAL), "tutorial_sword");
+		tutorialSword.setCreativeTab(tabCreeper);
 
 		GameRegistry.registerItem(tutorialMultitool = new ItemModMultitool("tutorial_multitool", TUTORIAL), "tutorial_multitool");
+		tutorialMultitool.setCreativeTab(tabCreeper);
 		
 		GameRegistry.registerItem(tutorialHelmet = new ItemModArmor("tutorial_helmet", TUTORIALA, 1, 0), "tutorial_helmet");
+		tutorialHelmet.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialChestplate = new ItemModArmor("tutorial_chestplate", TUTORIALA, 1, 1), "tutorial_chestplate");
+		tutorialChestplate.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialLeggings = new ItemModArmor("tutorial_leggings", TUTORIALA, 2, 2), "tutorial_leggings");
+		tutorialLeggings.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(tutorialBoots = new ItemModArmor("tutorial_boots", TUTORIALA, 1, 3), "tutorial_boots");
+		tutorialBoots.setCreativeTab(tabCreeper);
 	}
 	
 

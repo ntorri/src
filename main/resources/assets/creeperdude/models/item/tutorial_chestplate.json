@@ -1,6 +1,6 @@
 {
-	"parent":"tutorial:item/standard_item",
+	"parent":"creeperdude:item/standard_item",
 	"textures": {
-		"layer0":"tutorial:items/tutorial_chestplate"	
+		"layer0":"creeperdude:items/tutorial_chestplate"	
 	}
 }

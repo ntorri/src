@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "tutorial:items/tutorial_axe"
+        "layer0": "creeperdude:items/tutorial_axe"
     },
     "display": {
         "thirdperson": {

@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public final class ModItems {
 	
-	public static final CreeperTab tabCreeper = new CreeperTab("CreeperDude");
+	public static final CreeperTab tabCreeper = new CreeperTab("tabCreeper");
 	
     public static ToolMaterial TUTORIAL = EnumHelper.addToolMaterial("TUTORIAL", 3, 1000, 15.0F, 4.0F, 30);
     public static ArmorMaterial TUTORIALA = EnumHelper.addArmorMaterial("TUTORIALA", "tutorial:tutorial", 16, new int[]{3, 8, 6, 3}, 30);

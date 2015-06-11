@@ -1,4 +1,14 @@
 < en_US.lang - English localization file for the mod Tutorial >
 item.tutorial_item.name=Tutorial Item
 tile.tutorial_block.name=Tutorial Block
-itemGroup.CreeperTab=CreeperDude
+item.tutorial_pickaxe.name=Creeper Picker
+item.tutorial_axe.name=Creeper Axe
+item.tutorial_spade.name=Creeper Shovel
+item.tutorial_hoe.name=Creeper Hoe
+item.tutorial_sword.name=Creeper Sword
+item.tutorial_multitool.name=Creeper Sauce
+item.tutorial_helmet.name=Creeper Hat
+item.tutorial_chestplate.name=Creeper Chest
+item.tutorial_leggings.name=Creeper Pants
+item.tutorial_boots.name=Creeper Boots
+itemGroup.tabCreeper=CreeperDude: Items

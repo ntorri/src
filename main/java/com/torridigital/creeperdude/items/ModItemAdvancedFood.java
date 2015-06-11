@@ -11,8 +11,8 @@ import net.minecraft.world.World;
 
 public class ModItemAdvancedFood extends ItemFood {
 
-	private List<PotionEffect> effects = new ArrayList<>();
-	private List<Double> propabilities = new ArrayList<>();
+	private List<PotionEffect> effects = new ArrayList<PotionEffect>();
+	private List<Double> propabilities = new ArrayList<Double>();
 
 	public ModItemAdvancedFood(String unlocalizedName, int healAmount, float saturationModifier, boolean wolvesFavorite) {
 		super(healAmount, saturationModifier, wolvesFavorite);

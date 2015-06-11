@@ -6,6 +6,8 @@ import com.torridigital.creeperdude.MainMod;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -29,6 +31,9 @@ public final class ModItems {
 	public static Item mayhemChestplate;
 	public static Item mayhemLeggings;
 	public static Item mayhemBoots;
+	
+	public static Item chocolate;
+	public static Item luckyCandy;
 
 	public static void createItems() {
 		GameRegistry.registerItem(mayhemItem = new BasicItem("mayhem_item"), "mayhem_item");
@@ -55,6 +60,19 @@ public final class ModItems {
 		mayhemLeggings.setCreativeTab(tabCreeper);
 		GameRegistry.registerItem(mayhemBoots = new ItemModArmor("mayhem_boots", TUTORIALA, 1, 3), "mayhem_boots");
 		mayhemBoots.setCreativeTab(tabCreeper);
+		
+		GameRegistry.registerItem(chocolate = new ModItemFood("chocolate", 2, 0.2f, false,
+			    new PotionEffect(Potion.moveSpeed.id, 1200, 1),
+			    new PotionEffect(Potion.jump.id, 600, 0),
+			    new PotionEffect(Potion.regeneration.id, 200, 1))
+			    .setAlwaysEdible(), "chocolate");
+		chocolate.setCreativeTab(tabCreeper);
+
+		GameRegistry.registerItem(luckyCandy = new ModItemAdvancedFood("lucky_candy", 1, 0.5f, false)
+				.addPotionEffect(new PotionEffect(Potion.regeneration.id, 200, 4), 0.5)
+				.addPotionEffect(new PotionEffect(Potion.wither.id, 200, 4), 0.5)
+				.setAlwaysEdible(), "lucky_candy");
+		luckyCandy.setCreativeTab(tabCreeper);
 	}
 	
 

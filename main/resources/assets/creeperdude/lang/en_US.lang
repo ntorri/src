@@ -11,4 +11,6 @@ item.mayhem_helmet.name=Mayhem Hat
 item.mayhem_chestplate.name=Mayhem Chest
 item.mayhem_leggings.name=Mayhem Pants
 item.mayhem_boots.name=Mayhem Boots
+item.chocolate.name=Chocolate
+item.lucky_candy.name=Lucky Candy
 itemGroup.tabCreeper=Mayhem: Items

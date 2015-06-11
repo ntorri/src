@@ -27,6 +27,9 @@ public final class ItemRenderRegister {
 		reg(ModItems.mayhemLeggings);
 		reg(ModItems.mayhemBoots);
 		reg(ModItems.mayhemItem);
+		
+		reg(ModItems.chocolate);
+		reg(ModItems.luckyCandy);
 	}
 
 	// ==========================================================================

@@ -1,5 +1,6 @@
 package com.torridigital.creeperdude.items;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
@@ -14,6 +15,7 @@ public class ItemModArmor extends ItemArmor {
 		super(material, renderIndex, armorType);
 
 		this.setUnlocalizedName(unlocalizedName);
+		
 	}
 
 	@Override

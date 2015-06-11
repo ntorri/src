@@ -1,5 +1,5 @@
 {
-    "parent":"creeperdude:block/tutorial_block",
+    "parent":"creeperdude:block/mayhem_block",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

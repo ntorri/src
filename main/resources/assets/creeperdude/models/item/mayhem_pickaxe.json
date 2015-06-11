@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "creeperdude:items/tutorial_multitool"
+        "layer0": "creeperdude:items/mayhem_pickaxe"
     },
     "display": {
         "thirdperson": {

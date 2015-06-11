@@ -1,14 +1,14 @@
-< en_US.lang - English localization file for the mod Tutorial >
-item.tutorial_item.name=Tutorial Item
-tile.tutorial_block.name=Tutorial Block
-item.tutorial_pickaxe.name=Creeper Picker
-item.tutorial_axe.name=Creeper Axe
-item.tutorial_spade.name=Creeper Shovel
-item.tutorial_hoe.name=Creeper Hoe
-item.tutorial_sword.name=Creeper Sword
-item.tutorial_multitool.name=Creeper Sauce
-item.tutorial_helmet.name=Creeper Hat
-item.tutorial_chestplate.name=Creeper Chest
-item.tutorial_leggings.name=Creeper Pants
-item.tutorial_boots.name=Creeper Boots
-itemGroup.tabCreeper=CreeperDude: Items
+< en_US.lang - English localization file for Mayhem MOD >
+item.mayhem_item.name=Mayhem Item
+tile.mayhem_block.name=Mayhem Block
+item.mayhem_pickaxe.name=Mayhem Pickaxe
+item.mayhem_axe.name=Mayhem Axe
+item.mayhem_spade.name=Mayhem Shovel
+item.mayhem_hoe.name=Mayhem Hoe
+item.mayhem_sword.name=Mayhem Sword
+item.mayhem_multitool.name=Mayhem Sauce
+item.mayhem_helmet.name=Mayhem Hat
+item.mayhem_chestplate.name=Mayhem Chest
+item.mayhem_leggings.name=Mayhem Pants
+item.mayhem_boots.name=Mayhem Boots
+itemGroup.tabCreeper=Mayhem: Items

@@ -18,20 +18,20 @@ public class ItemModArmor extends ItemArmor {
 
 	@Override
 	public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
-		if (itemStack.getItem() == ModItems.tutorialHelmet) {
+		if (itemStack.getItem() == ModItems.mayhemHelmet) {
 			this.effectPlayer(player, Potion.nightVision, 0);
 		}
-		if (itemStack.getItem() == ModItems.tutorialChestplate) {
+		if (itemStack.getItem() == ModItems.mayhemChestplate) {
 			this.effectPlayer(player, Potion.digSpeed, 0);
 		}
-		if (itemStack.getItem() == ModItems.tutorialLeggings) {
+		if (itemStack.getItem() == ModItems.mayhemLeggings) {
 			this.effectPlayer(player, Potion.moveSpeed, 0);
 		}
-		if (itemStack.getItem() == ModItems.tutorialBoots) {
+		if (itemStack.getItem() == ModItems.mayhemBoots) {
 			this.effectPlayer(player, Potion.jump, 1);
 		}
 
-		if (this.isWearingFullSet(player, ModItems.tutorialHelmet, ModItems.tutorialChestplate, ModItems.tutorialLeggings, ModItems.tutorialBoots)) {
+		if (this.isWearingFullSet(player, ModItems.mayhemHelmet, ModItems.mayhemChestplate, ModItems.mayhemLeggings, ModItems.mayhemBoots)) {
 			this.effectPlayer(player, Potion.regeneration, 1);
 		}
 	}

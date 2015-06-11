@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "creeperdude:blocks/tutorial_block"
+        "all": "creeperdude:blocks/mayhem_block"
     }
 }

@@ -9,11 +9,11 @@ public class CreeperTab extends CreativeTabs {
 	
 	public CreeperTab(String label) {
 		super(label);
-		this.setBackgroundImageName("teleport.png");
+		this.setBackgroundImageName("tab_mayhem.png");
 	}
 	@Override
 	public Item getTabIconItem() {
-		return ModItems.tutorialItem;
+		return ModItems.mayhemItem;
 	}
 
 }

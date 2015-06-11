@@ -15,18 +15,18 @@ public final class ItemRenderRegister {
 	}
 
 	public static void registerItemRenderer() {
-		reg(ModItems.tutorialPickaxe);
-		reg(ModItems.tutorialAxe);
-		reg(ModItems.tutorialSpade);
-		reg(ModItems.tutorialHoe);
-		reg(ModItems.tutorialSword);
-		reg(ModItems.tutorialMultitool);
+		reg(ModItems.mayhemPickaxe);
+		reg(ModItems.mayhemAxe);
+		reg(ModItems.mayhemSpade);
+		reg(ModItems.mayhemHoe);
+		reg(ModItems.mayhemSword);
+		reg(ModItems.mayhemMultitool);
 		
-		reg(ModItems.tutorialHelmet);
-		reg(ModItems.tutorialChestplate);
-		reg(ModItems.tutorialLeggings);
-		reg(ModItems.tutorialBoots);
-		reg(ModItems.tutorialItem);
+		reg(ModItems.mayhemHelmet);
+		reg(ModItems.mayhemChestplate);
+		reg(ModItems.mayhemLeggings);
+		reg(ModItems.mayhemBoots);
+		reg(ModItems.mayhemItem);
 	}
 
 	// ==========================================================================

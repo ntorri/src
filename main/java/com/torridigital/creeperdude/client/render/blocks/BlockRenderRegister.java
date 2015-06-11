@@ -16,6 +16,8 @@ public final class BlockRenderRegister {
 
 	public static void registerBlockRenderer() {
 		reg(ModBlocks.mayhemBlock);
+		reg(ModBlocks.mayhem_ore);
+		reg(ModBlocks.mayhem_multi_ore);
 	}
 
 	public static String modid = Reference.MOD_ID;

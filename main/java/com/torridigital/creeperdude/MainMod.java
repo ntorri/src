@@ -29,6 +29,7 @@ public class MainMod {
 		this.proxy.init(event);
 		MinecraftForge.EVENT_BUS.register(new ChatItems());
 		MinecraftForge.EVENT_BUS.register(new DragonSpawner());
+		MinecraftForge.EVENT_BUS.register(new BreakBlockMessage());
 		MinecraftForge.EVENT_BUS.register(new SpawnAlert());
 		MinecraftForge.EVENT_BUS.register(new SharpSnowballs());
 		MinecraftForge.EVENT_BUS.register(new OverpoweredIronGolems());

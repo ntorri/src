@@ -29,7 +29,6 @@ public final class ItemRenderRegister {
 		reg(ModItems.mayhemItem);
 		
 		reg(ModItems.chocolate);
-		reg(ModItems.luckyCandy);
 	}
 
 	// ==========================================================================

@@ -33,7 +33,6 @@ public final class ModItems {
 	public static Item mayhemBoots;
 	
 	public static Item chocolate;
-	public static Item luckyCandy;
 
 	public static void createItems() {
 		GameRegistry.registerItem(mayhemItem = new BasicItem("mayhem_item"), "mayhem_item");
@@ -68,11 +67,6 @@ public final class ModItems {
 			    .setAlwaysEdible(), "chocolate");
 		chocolate.setCreativeTab(tabCreeper);
 
-		GameRegistry.registerItem(luckyCandy = new ModItemAdvancedFood("lucky_candy", 1, 0.5f, false)
-				.addPotionEffect(new PotionEffect(Potion.regeneration.id, 200, 4), 0.5)
-				.addPotionEffect(new PotionEffect(Potion.wither.id, 200, 4), 0.5)
-				.setAlwaysEdible(), "lucky_candy");
-		luckyCandy.setCreativeTab(tabCreeper);
 	}
 	
 

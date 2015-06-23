@@ -36,7 +36,7 @@ public class MainMod {
 		// MinecraftForge.EVENT_BUS.register(new RainWater());
 		// FMLCommonHandler.instance().bus().register(new WallClimber());
 		// MinecraftForge.EVENT_BUS.register(new WallClimber());
-		// MinecraftForge.EVENT_BUS.register(new ArrowShotgun());
+		MinecraftForge.EVENT_BUS.register(new ArrowShotgun());
 		MinecraftForge.EVENT_BUS.register(new SkeletonWar());
 	}
 	@EventHandler

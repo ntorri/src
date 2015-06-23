@@ -2,6 +2,8 @@ package com.torridigital.creeperdude;
 
 import java.util.Random;
 
+import com.torridigital.creeperdude.items.ModItems;
+
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.init.Items;
@@ -24,7 +26,7 @@ public class ArrowShotgun {
 		}
 
 		if ((event.action != Action.RIGHT_CLICK_AIR && event.action != Action.RIGHT_CLICK_BLOCK)
-				|| player.getHeldItem().getItem() != Items.stick) {
+				|| player.getHeldItem().getItem() != ModItems.mayhemMultitool) {
 			return;
 		}
 

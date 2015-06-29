@@ -1,5 +1,7 @@
 package com.torridigital.creeperdude;
 
+import com.torridigital.creeperdude.config.Config;
+
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
@@ -10,12 +12,13 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = "com.torridigital.creeperdude.config.GGRGuiFactory", acceptableRemoteVersions = "*")
 
 public class MainMod {
 
 	@Instance
 	    public static MainMod instance = new MainMod();
+		public Config config;
 	 
 	@SidedProxy(clientSide="com.torridigital.creeperdude.ClientProxy", serverSide="com.torridigital.creeperdude.ServerProxy")
 	public static CommonProxy proxy;
@@ -23,10 +26,13 @@ public class MainMod {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
 		this.proxy.preInit(event);
+		config = new Config(event.getSuggestedConfigurationFile()).loadConfig();
+        FMLCommonHandler.instance().bus().register(config);
 	}
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		this.proxy.init(event);
+		MinecraftForge.EVENT_BUS.register(new WorldEvents());
 		MinecraftForge.EVENT_BUS.register(new ChatItems());
 		// MinecraftForge.EVENT_BUS.register(new DragonSpawner());
 		// MinecraftForge.EVENT_BUS.register(new BreakBlockMessage());
